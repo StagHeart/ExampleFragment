@@ -5,7 +5,7 @@
  *  out. This Fragment handles data from a DDP subscription. If the user isn't scrolling it will
  *  prefetch the thumbnail bitmaps head of the visible items on the list on the background thread.
  *  The data coming in from the DDP subscription is added to the DataBase on the
- *  background thread. if the data is needed in the list it will then be added to objectListSync and
+ *  background thread. If the data is needed in the list it will then be added to objectListSync and
  *  the adapter will be notified. This Fragment gets it's data from the database not the data
  *  coming in from the DDP subscription directly. In the DB it has the best thumbs for the current
  *  state of the app. Even if new thumbs are coming in it will only update if it's needed. If there
